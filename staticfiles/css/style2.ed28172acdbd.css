@@ -1,0 +1,300 @@
+#menu ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+
+/* image */
+.single-featured-property .property-thumb img {
+    width: auto;
+  }
+/* :: 11.0 Single Property Area CSS */
+
+.single-featured-property {
+  position: relative;
+  z-index: 1;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  overflow: hidden;
+  margin-bottom: 30px; }
+  .single-featured-property .property-thumb {
+    position: relative;
+    z-index: 1; }
+    .single-featured-property .property-thumb .tag span {
+      height: 35px;
+      padding: 0 20px;
+      background-color: #947054;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      display: inline-block;
+      line-height: 35px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 10;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms; }
+    .single-featured-property .property-thumb .list-price p {
+      background-color: #ffffff;
+      padding: 10px 20px;
+      color: #947054;
+      font-size: 24px;
+      font-weight: 600;
+      display: inline-block;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      z-index: 10;
+      margin-bottom: 0;
+      line-height: 1;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms; }
+  .single-featured-property .property-content {
+    padding: 30px;
+    border: 1px solid #e1dddd; }
+    .single-featured-property .property-content h5 {
+      font-size: 18px; }
+    .single-featured-property .property-content h6{
+      font-size: 18px; }
+    .single-featured-property .property-content p {
+      margin-bottom: 5px; 
+    }
+    .single-featured-property .property-content .location {
+      color: #947054;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 14px;
+      font-weight: 600; }
+      .single-featured-property .property-content .location img {
+        margin-right: 10px;
+        display: inline-block !important;
+        width: auto !important; }
+    .single-featured-property .property-content .property-meta-data span {
+      font-size: 12px;
+      font-weight: 600;
+      margin-left: 5px;
+      color: #838383; }
+    .single-featured-property .property-content .property-meta-data img {
+      margin-right: 10px;
+      display: inline-block !important;
+      width: auto !important; }
+      @media only screen and (max-width: 767px) {
+        .single-featured-property .property-content .property-meta-data img {
+          margin-right: 0; } }
+  .single-featured-property:hover, .single-featured-property:focus {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1); }
+    .single-featured-property:hover .tag span, .single-featured-property:focus .tag span {
+      background-color: #000000;
+      color: #ffffff; }
+    .single-featured-property:hover .list-price p, .single-featured-property:focus .list-price p {
+      background-color: #947054;
+      color: #ffffff; }
+
+
+/*Input for rent- for sale */ 
+.forSale {
+	font-size: 20px;
+	text-align: center;
+	color:black;
+}
+
+/*Search section */
+#search {
+	padding: 100px 0 60px 0;
+	background: #6b7485;
+	color: rgba(255,255,255,.65);
+} 
+#search h2 {
+	color: #fff;
+	text-align: center;
+} 
+#search a {
+	color: #fff;
+	text-align: center;
+} 
+ .search-button {
+	text-align: center;
+}
+
+/* for the searching section*/
+.south-search-area {
+  position: relative;
+  z-index: 1; }
+  .south-search-area .advanced-search-form {
+    position: relative;
+    z-index: 1;
+    padding: 30px 50px;
+    border: 4px solid black;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+	background-color: #d9dbde;
+	}
+    @media only screen and (max-width: 767px) {
+      .south-search-area .advanced-search-form {
+        padding: 30px 20px; } }
+    .south-search-area .advanced-search-form .search-title {
+      position: absolute;
+      width: 260px;
+      height: 45px;
+      background-color: #947054;
+      top: -46px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      padding: 0 40px;
+      text-align: center; }
+      @media only screen and (max-width: 767px) {
+        .south-search-area .advanced-search-form .search-title {
+          width: 210px;
+          padding: 0 15px; } }
+      .south-search-area .advanced-search-form .search-title p {
+        margin-bottom: 0;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 45px;
+        font-weight: 600; }
+    .south-search-area .advanced-search-form .slider-range {
+      flex: 0 0 50%;
+      min-width: 50%;
+      margin-bottom: 30px; }
+      @media only screen and (max-width: 767px) {
+        .south-search-area .advanced-search-form .slider-range {
+          margin-bottom: 50px; } }
+      .south-search-area .advanced-search-form .slider-range:first-child {
+        padding-right: 15px; }
+      .south-search-area .advanced-search-form .slider-range:last-child {
+        padding-left: 15px; }
+    .south-search-area .advanced-search-form .ui-widget.ui-widget-content {
+      border: none;
+      height: 4px; }
+    .south-search-area .advanced-search-form .ui-widget-content {
+      background: #947054; }
+    .south-search-area .advanced-search-form .ui-slider-horizontal {
+      height: 4px;
+      background: #947054; }
+    .south-search-area .advanced-search-form .ui-corner-all,
+    .south-search-area .advanced-search-form .ui-corner-bottom,
+    .south-search-area .advanced-search-form .ui-corner-right,
+    .south-search-area .advanced-search-form .ui-corner-br {
+      border-bottom-right-radius: 0; }
+    .south-search-area .advanced-search-form .ui-corner-all,
+    .south-search-area .advanced-search-form .ui-corner-bottom,
+    .south-search-area .advanced-search-form .ui-corner-left,
+    .south-search-area .advanced-search-form .ui-corner-bl {
+      border-bottom-left-radius: 0; }
+    .south-search-area .advanced-search-form .ui-corner-all,
+    .south-search-area .advanced-search-form .ui-corner-top,
+    .south-search-area .advanced-search-form .ui-corner-right,
+    .south-search-area .advanced-search-form .ui-corner-tr {
+      border-top-right-radius: 0; }
+    .south-search-area .advanced-search-form .ui-corner-all,
+    .south-search-area .advanced-search-form .ui-corner-top,
+    .south-search-area .advanced-search-form .ui-corner-left,
+    .south-search-area .advanced-search-form .ui-corner-tl {
+      border-top-left-radius: 0; }
+    .south-search-area .advanced-search-form .ui-state-default,
+    .south-search-area .advanced-search-form .ui-widget-content .ui-state-default,
+    .south-search-area .advanced-search-form .ui-widget-header .ui-state-default,
+    .south-search-area .advanced-search-form .ui-button,
+    .south-search-area .advanced-search-form html .ui-button.ui-state-disabled:hover,
+    .south-search-area .advanced-search-form html .ui-button.ui-state-disabled:active {
+      border: none;
+      background: #947054;
+      margin-top: -3px; }
+    .south-search-area .advanced-search-form .range {
+      font-size: 12px;
+      margin-top: 15px;
+      font-weight: 600; }
+      @media only screen and (max-width: 767px) {
+        .south-search-area .advanced-search-form .range {
+          font-size: 10px; } }
+    .south-search-area .advanced-search-form .more-filter a {
+      text-transform: uppercase;
+      font-size: 12px;
+      color: #323232; }
+      .south-search-area .advanced-search-form .more-filter a:hover {
+        color: #947054; }
+    .south-search-area .advanced-search-form .search-form-second-steps {
+      display: none; }
+ 
+.search-title {
+            position: absolute;
+            width: 260px;
+            height: 45px;
+            background-color: lightgray;
+            top: -46px;
+            left: 50%;
+            @include transform (translateX(-50%));
+            padding: 0 40px;
+            text-align: center;
+            @media #{$breakpoint-xs} {
+                width: 210px;
+                padding: 0 15px;
+            }
+            p {
+                margin-bottom: 0;
+                color: $color-white;
+                text-transform: uppercase;
+                line-height: 45px;
+                font-weight: 600;
+            }
+        }
+		.form-group {
+            margin-bottom: 15px;
+        }
+		.form-control {
+            border: 1px solid $border-color;
+            height: 45px;
+            background-color: $color-white;
+            border-radius: 0;
+            font-style: italic;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+		/*For slae For Rent */
+		.form-control-1 {
+            border: 1px solid $border-color;
+            height: 15px;
+            background-color: $color-white;
+            border-radius: 0;
+            font-style: italic;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+		.price {
+			  letter-spacing: 1px;
+
+		}
+		.slider-range {
+            flex: 0 0 50%;
+            min-width: 50%;
+            margin-bottom: 30px;
+            @media #{$breakpoint-xs} {
+                margin-bottom: 50px;
+            }
+			.row-reverse {
+    @include flex-direction(row-reverse);
+}
+.more-filter {
+            a {
+                text-transform: uppercase;
+                font-size: 12px;
+                color: $heading-color;
+                &:hover {
+                    color: $bg-default;
+                }
+            }
+        }
+		.listings-btn-groups {
+        a {
+            &:first-child {
+                margin-bottom: 15px;
+            }
+        }
+        .south-btn {
+            min-width: 285px;
+            width: 285px;
+            display: block;
+        }
+    }
